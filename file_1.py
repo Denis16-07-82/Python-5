@@ -30,5 +30,5 @@ if __name__ == '__main__':
     email_address = input('Введите ваш email адрес: ')
     try:
         email_parse(email_address)
-    except ValueError as e:
+    except ValueError :
         print(f'{ValueError}:wrong email:{email_address}')
